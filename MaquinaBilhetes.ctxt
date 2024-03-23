@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MaquinaBilhetes
+comment0.text=\n\ MaquinaBilhetes\ modela\ uma\ m\u00E1quina\ de\ bilhetes\ ing\u00EAnua\ que\n\ emite\ bilhetes\ de\ pre\u00E7o\ fixo.\n\ O\ pre\u00E7o\ de\ um\ bilhete\ \u00E9\ definido\ atrav\u00E9s\ do\ construtor.\n\ \u00C9\ uma\ m\u00E1quina\ ing\u00EAnua\ porque\ ela\ confia\ que\ os\ clientes\n\ colocar\u00E3o\ a\ quantidade\ de\ dinheiro\ suficiente\ antes\ de\ tentar\n\ emitir\ um\ bilhete.\n\ Ela\ tamb\u00E9m\ assume\ que\ os\ clientes\ colocar\u00E3o\ quantidades\n\ razo\u00E1veis.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023-08-31\n\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\n
+comment1.params=custoBilhete
+comment1.target=MaquinaBilhetes(int)
+comment1.text=\n\ Cria\ uma\ m\u00E1quina\ que\ emite\ bilhetes\ de\ um\ dado\ pre\u00E7o.\n\ Note\ que\ o\ pre\u00E7o\ deve\ ser\ maior\ que\ zero,\ e\ n\u00E3o\ tem\n\ nenhuma\ verifica\u00E7\u00E3o\ para\ garantir\ isso.\n
+comment2.params=
+comment2.target=int\ obterPreco()
+comment2.text=\n\ Retorna\ o\ pre\u00E7o\ do\ bilhete.\n
+comment3.params=
+comment3.target=int\ obterSaldo()
+comment3.text=\n\ Retorna\ a\ quantidade\ de\ dinheiro\ j\u00E1\ inserida\ para\ o\n\ pr\u00F3ximo\ bilhete.\n
+comment4.params=quantidade
+comment4.target=void\ inserirDinheiro(int)
+comment4.text=\n\ Recebe\ uma\ quantidade\ de\ dinheiro\ de\ um\ cliente.\n
+comment5.params=
+comment5.target=void\ imprimirBilhete()
+comment5.text=\n\ Imprime\ um\ bilhete.\n\ Atualiza\ o\ total\ coletado\ e\ reduz\ o\ saldo\ para\ zero.\n
+numComments=6
